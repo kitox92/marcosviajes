@@ -23,6 +23,10 @@
     
 }
 
+body{
+    background-color: rgba(122, 117, 117, 0.562);
+
+}
 .navbar-brand{
     font-family: 'DynaPuff', cursive;
     
@@ -42,3 +46,16 @@
     background-position: center;
 }
 
+
+
+.btn{
+    transition: all 1s;
+}
+.btn:hover{
+  
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+footer{
+    align-items: center;
+}
