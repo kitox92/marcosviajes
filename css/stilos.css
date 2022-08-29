@@ -33,6 +33,7 @@ body{
     
 }
 
+
 /** nuestros viejes **/
 
 .container img{
@@ -97,3 +98,28 @@ footer{
 .animacion{-webkit-animation:scale-up-hor-center .4s cubic-bezier(.39,.575,.565,1.000) both;animation:scale-up-hor-center .4s cubic-bezier(.39,.575,.565,1.000) both}
 
 @-webkit-keyframes scale-up-hor-center{0%{-webkit-transform:scaleX(.4);transform:scaleX(.4)}100%{-webkit-transform:scaleX(1);transform:scaleX(1)}}@keyframes scale-up-hor-center{0%{-webkit-transform:scaleX(.4);transform:scaleX(.4)}100%{-webkit-transform:scaleX(1);transform:scaleX(1)}}
+
+
+
+/**  - Contactop ****/
+
+.scale-up-hor-right{
+    -webkit-animation:scale-up-hor-right .4s cubic-bezier(.39,.575,.565,1.000) both;
+    animation:scale-up-hor-right .4s cubic-bezier(.39,.575,.565,1.000) both;
+    animation-delay: .1s;
+}
+
+
+
+ @-webkit-keyframes scale-up-hor-right{0%{-webkit-transform:scaleX(.4);transform:scaleX(.4);-webkit-transform-origin:100% 100%;transform-origin:100% 100%}100%{-webkit-transform:scaleX(1);transform:scaleX(1);-webkit-transform-origin:100% 100%;transform-origin:100% 100%}}@keyframes scale-up-hor-right{0%{-webkit-transform:scaleX(.4);transform:scaleX(.4);-webkit-transform-origin:100% 100%;transform-origin:100% 100%}100%{-webkit-transform:scaleX(1);transform:scaleX(1);-webkit-transform-origin:100% 100%;transform-origin:100% 100%}}
+
+
+
+ .scale-in-ver-bottom{
+    -webkit-animation:scale-in-ver-bottom .5s cubic-bezier(.25,.46,.45,.94) both;
+    animation:scale-in-ver-bottom .5s cubic-bezier(.25,.46,.45,.94) both;
+}
+
+
+
+ @-webkit-keyframes scale-in-ver-bottom{0%{-webkit-transform:scaleY(0);transform:scaleY(0);-webkit-transform-origin:0 100%;transform-origin:0 100%;opacity:1}100%{-webkit-transform:scaleY(1);transform:scaleY(1);-webkit-transform-origin:0 100%;transform-origin:0 100%;opacity:1}}@keyframes scale-in-ver-bottom{0%{-webkit-transform:scaleY(0);transform:scaleY(0);-webkit-transform-origin:0 100%;transform-origin:0 100%;opacity:1}100%{-webkit-transform:scaleY(1);transform:scaleY(1);-webkit-transform-origin:0 100%;transform-origin:0 100%;opacity:1}}
