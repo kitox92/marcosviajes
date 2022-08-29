@@ -48,9 +48,7 @@ body{
 
 
 
-.btn{
-    transition: all 1s;
-}
+
 .btn:hover{
   
     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
@@ -59,3 +57,11 @@ body{
 footer{
     align-items: center;
 }
+
+
+
+/***** Animaciones ******/ 
+
+.animacion{-webkit-animation:scale-up-hor-center .4s cubic-bezier(.39,.575,.565,1.000) both;animation:scale-up-hor-center .4s cubic-bezier(.39,.575,.565,1.000) both}
+
+@-webkit-keyframes scale-up-hor-center{0%{-webkit-transform:scaleX(.4);transform:scaleX(.4)}100%{-webkit-transform:scaleX(1);transform:scaleX(1)}}@keyframes scale-up-hor-center{0%{-webkit-transform:scaleX(.4);transform:scaleX(.4)}100%{-webkit-transform:scaleX(1);transform:scaleX(1)}}
