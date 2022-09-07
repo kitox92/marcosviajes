@@ -15,7 +15,7 @@
 }
 
 body {
-  background-color: rgb(2, 71, 60);
+  background-color: rgba(59, 52, 52, 0.74);
 }
 
 .hero {
@@ -31,7 +31,7 @@ body {
   font-family: "DynaPuff", cursive;
 }
 .hero body {
-  background-color: rgba(122, 117, 117, 0.562);
+  background-color: rgba(42, 121, 117, 0.562);
 }
 
 .text-focus-in {
