@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: $fontRoboto;
+
+
+    &::selection {
+        background-color: rgb(59, 52, 52);
+        color: brown;
+    }
+    
+}
+
+    body{
+        background-color: $bodyColor
+
+    }
