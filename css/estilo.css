@@ -74,6 +74,27 @@ body {
   box-shadow: rgb(22, 108, 201) 0px 20px 30px -10px;
 }
 
+.tarjetitasColor {
+  background-color: rgb(192, 192, 206);
+  color: rgb(92, 31, 31);
+}
+
+.tarjetitas-gris {
+  background-color: rgb(122, 107, 107);
+}
+
+.tarjetitas-azul {
+  background-color: rgb(18, 18, 110);
+}
+
+.tarjetitas-rojo {
+  background-color: red;
+}
+
+.tarjetitas-verde {
+  background-color: green;
+}
+
 .bounce-top {
   -webkit-animation: bounce-top 0.9s both;
   animation: bounce-top 0.9s both;
@@ -276,4 +297,13 @@ body {
 }
 footer {
   align-items: center;
+}
+
+.formulario {
+  width: 400px;
+  border-radius: 5px;
+}
+.formulario:hover {
+  background-color: rebeccapurple;
+  color: gainsboro;
 }/*# sourceMappingURL=estilo.css.map */

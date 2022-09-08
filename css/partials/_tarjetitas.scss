@@ -14,11 +14,30 @@
         }
 
         
-        
     }
     
     
 }
+$tarjetitasColor: (
+    gris: rgb(122, 107, 107),
+    azul: rgb(18, 18, 110),
+    rojo: red,
+    verde: green,
+);
+
+.tarjetitasColor {
+    background-color: rgb(192, 192, 206);
+    color: rgb(92, 31, 31);
+}
+
+@each $tarjetitas, $color  in $tarjetitasColor {
+    .tarjetitas-#{$tarjetitas} {
+        background-color: $color;
+    }
+}
+
+
+
 
 .bounce-top{
     -webkit-animation:bounce-top .9s both;
