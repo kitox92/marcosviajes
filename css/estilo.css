@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=DynaPuff&family=Roboto:ital,wght@0,400;1,300&display=swap");
 /** fondo color **/
 * {
@@ -307,4 +308,15 @@ footer .formulario {
 footer .formulario:hover {
   background-color: rebeccapurple;
   color: gainsboro;
+}
+
+@media (max-width: 576px) {
+  .cabaña2 {
+    max-width: 100px;
+  }
+}
+@media (max-width: 360px) {
+  .cabaña2 {
+    max-width: 0px;
+  }
 }/*# sourceMappingURL=estilo.css.map */
