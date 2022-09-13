@@ -1,16 +1,16 @@
 footer{
     align-items: center;
-}
-
-
-.formulario{
-    width: 400px;
-    border-radius: 5px ;
-  
-    &:hover {
-       background-color:rebeccapurple;
-       color: gainsboro;
-
-     
+    
+    .formulario{
+        width: 400px;
+        border-radius: 5px ;
+      
+        &:hover {
+           background-color:rebeccapurple;
+           color: gainsboro;
+    
+         
+        }
     }
 }
+

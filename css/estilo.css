@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=DynaPuff&family=Roboto:ital,wght@0,400;1,300&display=swap");
+/** fondo color **/
 * {
   margin: 0;
   padding: 0;
@@ -15,7 +16,7 @@
 }
 
 body {
-  background-color: rgba(59, 52, 52, 0.74);
+  background-color: rgba(134, 112, 112, 0.74);
 }
 
 .hero {
@@ -72,6 +73,7 @@ body {
 }
 .container img .btn .btn:hover {
   box-shadow: rgb(22, 108, 201) 0px 20px 30px -10px;
+  color: red;
 }
 
 .tarjetitasColor {
@@ -298,12 +300,11 @@ body {
 footer {
   align-items: center;
 }
-
-.formulario {
+footer .formulario {
   width: 400px;
   border-radius: 5px;
 }
-.formulario:hover {
+footer .formulario:hover {
   background-color: rebeccapurple;
   color: gainsboro;
 }/*# sourceMappingURL=estilo.css.map */
