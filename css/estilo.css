@@ -313,9 +313,6 @@ body {
     font-size: 1.5rem;
     text-align: center;
   }
-  .texto {
-    font-size: 1rem;
-  }
   #cabaña2 {
     display: inline-block;
     position: relative;
@@ -324,17 +321,20 @@ body {
     align-items: center;
     align-content: flex-end;
   }
-  .texto {
-    font-size: 1.5rem;
+  /** index principal **/
+  .boton {
+    font-size: 2rem;
   }
   .inicio__medio {
     font-size: 2rem;
   }
+  /** tarjeta misiones **/
   .fin {
     font-size: 2rem;
   }
-  .boton {
-    font-size: 2rem;
+  /** tarjetitas nuestros viajes **/
+  .tarjetitas__viajes h5 {
+    font-size: 30rem;
   }
 }
 @media screen and (max-width: 767px) {
