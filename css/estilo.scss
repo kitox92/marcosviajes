@@ -9,5 +9,79 @@
 
 //media quieris abajo siempre
 
+@media screen and (max-width: 992px ) {
+
+  .textoParrafo{
+    
+    display: grid;
+    columns: 1fr ;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  .texto{
+    font-size: 1rem;
+  }
+  #cabaña2 {
+    display: inline-block;
+    position: relative;
+    height: 300px;
+    margin-top: 150px; 
+    align-items: center;
+    align-content: flex-end;
+  }
+  .texto{
+    font-size: 1.5rem;
+  }
+
+  .inicio__medio{
+    font-size: 2rem;
+
+  }
+  .fin{
+    font-size: 2rem;
+  }
 
 
+  .boton{
+    font-size: 2rem;
+  }
+}
+
+
+@media screen and (max-width: 767px) {
+  #cerro7colores{
+    height: 1rem;
+  }
+
+  #cabaña2{
+    height: 25rem;
+    
+  }
+  .texto{
+    font-size: 1.5rem;
+  }
+
+  .inicio__medio{
+    font-size: 2rem;
+
+  }
+  .fin{
+    font-size: 2rem;
+  }
+
+
+
+}
+
+@media screen  and ( max-width: 768px ) {
+  #cabaña2{
+    height: 25rem;
+  }
+}
+
+
+@media screen  and ( max-width: 480px ) {
+  #cabaña2{
+    height: 25rem;
+  }
+}
