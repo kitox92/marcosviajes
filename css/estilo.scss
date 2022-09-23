@@ -27,65 +27,97 @@
     align-items: center;
     align-content: flex-end;
   }
-  
-  
+
   /** index principal **/ 
-  
+
   .boton{
     font-size: 2rem;
   }
   
   .inicio__medio{
-    font-size: 2rem;
+    font-size: 1.9rem;
   
   }
 
   /** tarjeta misiones **/
+
   .fin{
-    font-size: 2rem;
+    font-size: 2rem; 
+   
   }
-
+  .fin_pais p {
+    font-size: 1.5rem;
+  }
+  
   /** tarjetitas nuestros viajes **/
-  .tarjetitas__viajes h5 {
-    font-size: 30rem;
-  }
-}
-
-
-@media screen and (max-width: 767px) {
-  #cerro7colores{
-    height: 1rem;
+  .tarjetita_viaje h5 {
+    font-size: 1.5rem;
+    p {
+      font-size: 1rem;
+    }
   }
 
-  #cabaña2{
-    height: 25rem;
-    
-  }
-  .texto{
+  .anchofooter{
+    border-top: 300px;
     font-size: 1.5rem;
   }
 
-  .inicio__medio{
+  /** contacto **/ 
+
+  .contacto {
     font-size: 2rem;
-
+    p{
+      font-size: 2rem;
+    }
+    ::placeholder{
+      font-size: 1.5rem;
+    }
+    button{
+      font-size: 2rem;
+    }
+    h4{
+      font-size: 2rem;
+    }
   }
-  .fin{
-    font-size: 2rem;
+
+  .faq {
+    font-size: 1.7rem;
+    h2 p{
+      font-size: 2rem;
+    }
   }
-
-
-
 }
-
 @media screen  and ( max-width: 768px ) {
   #cabaña2{
     height: 25rem;
   }
 }
-
-
 @media screen  and ( max-width: 480px ) {
   #cabaña2{
     height: 25rem;
   }
+
+  /** contacto **/
+
+  .contacto{
+    font-size: 2rem;
+    text-align: center;
+
+  }
+  .button{
+   text-align: center;
+   box-shadow: 10px 10px 5px rgb(0, 0, 0); 
+  }
+
+  .mapa_arriba {
+    h1{
+      font-size: 2rem;
+      box-shadow: 10px 10px 5px rgb(0, 0, 0); 
+      border: 1px solid black;
+      background-color:rgb(43, 189, 91);
+      border-radius: 15px ;
+    }
+    
+  }
+
 }
