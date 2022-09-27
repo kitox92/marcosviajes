@@ -544,6 +544,9 @@ body {
   }
 }
 @media screen and (max-width: 576px) {
+  .navbar-nav {
+    font-size: 1.8rem;
+  }
   .chubut {
     padding: 9px;
   }
