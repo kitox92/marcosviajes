@@ -305,6 +305,106 @@ body {
   position: absolute;
 }
 
+@media screen and (max-width: 1400px) {
+  /** Index **/
+  .navbar-nav {
+    font-size: 1.8rem;
+  }
+  .recorramos {
+    font-size: 5rem;
+  }
+  .boton {
+    font-size: 2.5rem;
+  }
+  .titulo {
+    font-size: 3rem;
+  }
+  .fin {
+    font-size: 3rem;
+  }
+  .texto {
+    font-size: 2rem;
+  }
+  footer {
+    font-size: 2rem;
+  }
+  /**  nosotros  **/
+  .texto h2 {
+    font-size: 3rem;
+    align-items: center;
+  }
+  .textoParrafo {
+    font-size: 2rem;
+  }
+  /** contacto **/
+  .contacto {
+    font-size: 2rem;
+  }
+  .contacto p {
+    font-size: 2rem;
+  }
+  .contacto ::-moz-placeholder {
+    font-size: 1.5rem;
+  }
+  .contacto :-ms-input-placeholder {
+    font-size: 1.5rem;
+  }
+  .contacto ::placeholder {
+    font-size: 1.5rem;
+  }
+  .contacto button {
+    font-size: 2rem;
+  }
+  .contacto h4 {
+    font-size: 2rem;
+  }
+  /** tarjetitas **/
+  .tarjetita_viaje h5 {
+    font-size: 2rem;
+  }
+  .btn {
+    font-size: 1.5rem;
+  }
+  .titulo-tarjetita {
+    margin-top: 2.1rem;
+  }
+  /** faq **/
+  .faq {
+    font-size: 1.7rem;
+  }
+  .faq h2 p {
+    font-size: 2rem;
+  }
+  .mapa_arriba h1 {
+    font-size: 2rem;
+    box-shadow: 10px 10px 5px rgb(0, 0, 0);
+    border: 1px solid black;
+    background-color: rgb(43, 189, 91);
+    border-radius: 15px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .texto h2 {
+    font-size: 2.3rem;
+    align-items: center;
+  }
+  .textoParrafo {
+    font-size: 1.7rem;
+  }
+  .titulo-tarjetita {
+    margin-top: 4.6rem;
+  }
+  .navbar-nav {
+    font-size: 1.8rem;
+  }
+  .mapa_arriba h1 {
+    font-size: 2rem;
+    box-shadow: 10px 10px 5px rgb(0, 0, 0);
+    border: 1px solid black;
+    background-color: rgb(43, 189, 91);
+    border-radius: 15px;
+  }
+}
 @media screen and (max-width: 992px) {
   .textoParrafo {
     display: grid;
@@ -325,8 +425,8 @@ body {
   .boton {
     font-size: 2rem;
   }
-  .inicio__medio {
-    font-size: 1.9rem;
+  .titulo {
+    font-size: 2rem;
   }
   /** tarjeta misiones **/
   .fin {
@@ -336,15 +436,32 @@ body {
     font-size: 1.5rem;
   }
   /** tarjetitas nuestros viajes **/
-  .tarjetita_viaje h5 {
-    font-size: 1.5rem;
-  }
-  .tarjetita_viaje h5 p {
-    font-size: 1rem;
-  }
   .anchofooter {
     border-top: 300px;
     font-size: 1.5rem;
+  }
+  .titulo-tarjetita {
+    margin: 2px;
+  }
+  .chubut {
+    padding: 34px;
+  }
+  .tarjetita_cerro {
+    padding: 22px;
+  }
+  .tarjetita_viaje h5 {
+    font-size: 2rem;
+  }
+  .titulo_tarjeta {
+    margin-bottom: 1rem;
+  }
+  /** nosotros **/
+  .texto h2 {
+    font-size: 1rem;
+    align-items: center;
+  }
+  .textoParrafo {
+    font-size: 2rem;
   }
   /** contacto **/
   .contacto {
@@ -376,13 +493,76 @@ body {
   }
 }
 @media screen and (max-width: 768px) {
+  .medio {
+    display: grid;
+    -moz-columns: 1fr;
+         columns: 1fr;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  .textoParrafo {
+    font-size: 1.4rem;
+  }
+  /** nosotros **/
+  .texto h2 {
+    font-size: 1.2rem;
+    align-items: center;
+  }
+  .textoParrafo {
+    font-size: 1.5rem;
+  }
   #cabaña2 {
-    height: 25rem;
+    height: 14.5rem;
+  }
+  /** nuestros viajes **/
+  .tarjeta h5 {
+    font-size: 1.6rem;
+  }
+  .fs-3 {
+    font-size: 4rem;
+  }
+  .btn {
+    font-size: 1.5rem;
+  }
+  .chubut {
+    padding: 15px;
+  }
+  /***  faq ***/
+  .titulo__faq {
+    font-size: 3rem;
+  }
+  .email {
+    overflow: scroll;
+  }
+  .mapa_arriba h1 {
+    height: 50px 50px;
+    font-size: 2rem;
+    box-shadow: 10px 10px 5px rgb(0, 0, 0);
+    border: 1px solid black;
+    background-color: rgb(43, 189, 91);
+    border-radius: 15px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .chubut {
+    padding: 9px;
+  }
+  .chubut .btn {
+    margin: 10px;
+  }
+  .misiones {
+    padding: 20px;
   }
 }
 @media screen and (max-width: 480px) {
   #cabaña2 {
     height: 25rem;
+  }
+  .titulo__faq {
+    font-size: 2.2rem;
+  }
+  #accordionFlushExample p {
+    font-size: 1.7rem;
   }
   /** contacto **/
   .contacto {
