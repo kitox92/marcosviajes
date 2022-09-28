@@ -405,7 +405,7 @@ body {
     border-radius: 15px;
   }
 }
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1200px) and (max-width: 992px) {
   .textoParrafo {
     display: grid;
     -moz-columns: 1fr;
@@ -492,7 +492,7 @@ body {
     font-size: 2rem;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1200px) and (max-width: 768px) {
   .medio {
     display: grid;
     -moz-columns: 1fr;
@@ -543,7 +543,7 @@ body {
     border-radius: 15px;
   }
 }
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 1200px) and (max-width: 576px) {
   .navbar-nav {
     font-size: 1.8rem;
   }
@@ -557,7 +557,7 @@ body {
     padding: 20px;
   }
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 1200px) and (max-width: 480px) {
   #cabaña2 {
     height: 25rem;
   }
