@@ -23,7 +23,7 @@ body {
 .hero {
   width: 100%;
   height: 100vh;
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../imagenes/cerrocolores.jpg");
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../imagenes/cafayate.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -63,18 +63,17 @@ body {
   }
 }
 
-.container img {
-  height: 100%;
+.btn-primary {
+  background-color: rgb(18, 133, 37);
 }
-.container img .btn {
-  background-color: rgb(8, 185, 67);
-  border: 0;
-  text-align: center;
-  background-position: center;
+
+.btn-primary:hover {
+  background: rgb(1, 117, 163);
+  color: black;
 }
-.container img .btn .btn:hover {
-  box-shadow: rgb(22, 108, 201) 0px 20px 30px -10px;
-  color: red;
+
+.card-body {
+  background-color: rgba(41, 2, 2, 0.247);
 }
 
 .tarjetitasColor {
@@ -219,7 +218,6 @@ body {
     transform: translateX(-8px) translateY(8px);
   }
 }
-/***** Animaciones ******/
 .animacion {
   -webkit-animation: scale-up-hor-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
   animation: scale-up-hor-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
@@ -306,7 +304,6 @@ body {
 }
 
 @media screen and (max-width: 1400px) {
-  /** Index **/
   .navbar-nav {
     font-size: 1.8rem;
   }
@@ -328,15 +325,24 @@ body {
   footer {
     font-size: 2rem;
   }
-  /**  nosotros  **/
-  .texto h2 {
-    font-size: 3rem;
-    align-items: center;
+  .textoChica h1 {
+    font-size: 4rem;
+  }
+  .textoChica p {
+    font-size: 2rem;
+  }
+  .tituloCabaña h2 {
+    font-size: 3.2rem;
   }
   .textoParrafo {
     font-size: 2rem;
   }
-  /** contacto **/
+  .texto__hotel h1 {
+    font-size: 4rem;
+  }
+  .texto__hotel p {
+    font-size: 2.3rem;
+  }
   .contacto {
     font-size: 2rem;
   }
@@ -358,22 +364,26 @@ body {
   .contacto h4 {
     font-size: 2rem;
   }
-  /** tarjetitas **/
-  .tarjetita_viaje h5 {
-    font-size: 2rem;
+  .card-body {
+    background-color: gray;
+  }
+  .card-body h5 {
+    font-size: 3rem;
+  }
+  .card-body p {
+    font-size: 2.2rem;
   }
   .btn {
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
-  .titulo-tarjetita {
-    margin-top: 2.1rem;
+  .titulo__faq {
+    font-size: 4rem;
   }
-  /** faq **/
   .faq {
-    font-size: 1.7rem;
+    font-size: 2.6rem;
   }
   .faq h2 p {
-    font-size: 2rem;
+    font-size: 2.9rem;
   }
   .mapa_arriba h1 {
     font-size: 2rem;
@@ -384,86 +394,93 @@ body {
   }
 }
 @media screen and (max-width: 1200px) {
-  .texto h2 {
-    font-size: 2.3rem;
-    align-items: center;
+  .titulo__faq {
+    font-size: 3rem;
   }
-  .textoParrafo {
-    font-size: 1.7rem;
+  .faq {
+    font-size: 2rem;
   }
-  .titulo-tarjetita {
-    margin-top: 4.6rem;
+  .faq h2 p {
+    font-size: 2rem;
   }
-  .navbar-nav {
-    font-size: 1.8rem;
+  .contacto {
+    font-size: 2.2rem;
+  }
+  .contacto p {
+    font-size: 2rem;
+  }
+  .contacto ::-moz-placeholder {
+    font-size: 2rem;
+  }
+  .contacto :-ms-input-placeholder {
+    font-size: 2rem;
+  }
+  .contacto ::placeholder {
+    font-size: 2rem;
+  }
+  .contacto button {
+    font-size: 2rem;
+  }
+  .contacto h4 {
+    font-size: 3rem;
+  }
+  .formulario {
+    padding: 20px;
   }
   .mapa_arriba h1 {
-    font-size: 2rem;
-    box-shadow: 10px 10px 5px rgb(0, 0, 0);
-    border: 1px solid black;
-    background-color: rgb(43, 189, 91);
-    border-radius: 15px;
+    font-size: 2.8rem;
+  }
+  .btnTarjetita {
+    padding: 10px;
+    margin: 55px;
   }
 }
-@media screen and (max-width: 1200px) and (max-width: 992px) {
-  .textoParrafo {
-    display: grid;
-    -moz-columns: 1fr;
-         columns: 1fr;
-    font-size: 1.5rem;
-    text-align: center;
-  }
-  #cabaña2 {
-    display: inline-block;
-    position: relative;
-    height: 300px;
-    margin-top: 150px;
-    align-items: center;
-    align-content: flex-end;
-  }
-  /** index principal **/
+@media screen and (max-width: 992px) {
   .boton {
     font-size: 2rem;
   }
   .titulo {
     font-size: 2rem;
   }
-  /** tarjeta misiones **/
   .fin {
     font-size: 2rem;
   }
   .fin_pais p {
     font-size: 1.5rem;
   }
-  /** tarjetitas nuestros viajes **/
-  .anchofooter {
-    border-top: 300px;
-    font-size: 1.5rem;
+  .tituloCabaña h2 {
+    font-size: 2.8rem;
   }
-  .titulo-tarjetita {
-    margin: 2px;
+  .texto__hotel h1 {
+    font-size: 3.2rem;
   }
-  .chubut {
-    padding: 34px;
-  }
-  .tarjetita_cerro {
-    padding: 22px;
-  }
-  .tarjetita_viaje h5 {
+  .texto__hotel p {
     font-size: 2rem;
   }
-  .titulo_tarjeta {
-    margin-bottom: 1rem;
+  .btnTarjetita {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
   }
-  /** nosotros **/
+  .textoTarjeta {
+    line-height: 40px;
+  }
+  .textoTarjeta h5 {
+    line-height: 40px;
+  }
+  .misiones p {
+    line-height: 27px;
+  }
   .texto h2 {
-    font-size: 1rem;
+    font-size: 2.2rem;
     align-items: center;
   }
   .textoParrafo {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
-  /** contacto **/
+  .textoCabañas {
+    font-size: 1.9rem;
+  }
   .contacto {
     font-size: 2rem;
   }
@@ -492,95 +509,69 @@ body {
     font-size: 2rem;
   }
 }
-@media screen and (max-width: 1200px) and (max-width: 768px) {
-  .medio {
-    display: grid;
-    -moz-columns: 1fr;
-         columns: 1fr;
-    font-size: 1.5rem;
-    text-align: center;
+@media screen and (max-width: 768px) {
+  .recorramos {
+    font-size: 3.5rem;
   }
-  .textoParrafo {
-    font-size: 1.4rem;
+  .medio h1 {
+    font-size: 2rem;
   }
-  /** nosotros **/
-  .texto h2 {
+  .medio p {
     font-size: 1.2rem;
-    align-items: center;
   }
-  .textoParrafo {
-    font-size: 1.5rem;
+  .textoTarjeta h5 {
+    font-size: 2rem;
   }
-  #cabaña2 {
-    height: 14.5rem;
-  }
-  /** nuestros viajes **/
-  .tarjeta h5 {
+  .textoTarjeta p {
     font-size: 1.6rem;
   }
-  .fs-3 {
-    font-size: 4rem;
+  .textoTarjeta a {
+    font-size: 1.2rem;
   }
-  .btn {
-    font-size: 1.5rem;
+  .btnTarjetita {
+    padding: 37px;
+    margin: 16px;
   }
-  .chubut {
-    padding: 15px;
-  }
-  /***  faq ***/
-  .titulo__faq {
-    font-size: 3rem;
-  }
-  .email {
-    overflow: scroll;
-  }
-  .mapa_arriba h1 {
-    height: 50px 50px;
-    font-size: 2rem;
-    box-shadow: 10px 10px 5px rgb(0, 0, 0);
-    border: 1px solid black;
-    background-color: rgb(43, 189, 91);
-    border-radius: 15px;
-  }
-}
-@media screen and (max-width: 1200px) and (max-width: 576px) {
-  .navbar-nav {
+  .tituloCabaña h2 {
     font-size: 1.8rem;
   }
-  .chubut {
-    padding: 9px;
-  }
-  .chubut .btn {
-    margin: 10px;
-  }
-  .misiones {
-    padding: 20px;
+  footer {
+    font-size: 1.2rem;
   }
 }
-@media screen and (max-width: 1200px) and (max-width: 480px) {
-  #cabaña2 {
-    height: 25rem;
-  }
-  .titulo__faq {
-    font-size: 2.2rem;
-  }
-  #accordionFlushExample p {
-    font-size: 1.7rem;
-  }
-  /** contacto **/
-  .contacto {
+@media screen and (max-width: 576px) {
+  .medio h1 {
     font-size: 2rem;
-    text-align: center;
   }
-  .button {
-    text-align: center;
-    box-shadow: 10px 10px 5px rgb(0, 0, 0);
+  .medio p {
+    font-size: 1.5rem;
   }
-  .mapa_arriba h1 {
-    font-size: 2rem;
-    box-shadow: 10px 10px 5px rgb(0, 0, 0);
-    border: 1px solid black;
-    background-color: rgb(43, 189, 91);
-    border-radius: 15px;
+  .medio h2 {
+    font-size: 2.3rem;
+  }
+  .btnTarjetita {
+    padding: 50px;
+    margin: 15px;
+  }
+  .textoJujuy h5 {
+    line-height: 50px;
+  }
+  .textoJujuy p {
+    line-height: 50px;
+  }
+  .misiones h5 {
+    line-height: 40px;
+  }
+  .misiones p {
+    line-height: 39px;
+  }
+  .faq {
+    font-size: 1.5rem;
+  }
+  .faq h2 p {
+    font-size: 1.8rem;
+  }
+  .tituloContacto {
+    font-size: 2.5rem;
   }
 }/*# sourceMappingURL=estilo.css.map */
