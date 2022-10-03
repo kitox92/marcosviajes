@@ -304,19 +304,19 @@
 @media screen and (max-width: 576px ) {
   // nosotros
   .medio{
-  h1{
-    font-size: 2rem;
-  }
-  p{
-    font-size: 1.5rem;
-  }
-  h2{
-    font-size: 2.3rem;
-  }
+    h1{
+      font-size: 2rem;
+    }
+    p{
+      font-size: 1.5rem;
+    }
+    h2{
+      font-size: 2.3rem;
+    }
   }
   .btnTarjetita{
-  padding: 50px;
-  margin: 15px;
+    padding: 50px;
+    margin: 15px;
   }
   .textoJujuy{
     h5{
@@ -346,4 +346,65 @@
   .tituloContacto{
     font-size: 2.5rem;
   } 
+}
+
+@media screen and (max-width: 412px ){
+  .titulo{
+    h3{
+      font-size: 1.2rem;
+    }
+    p{
+      font-size: 2rem;
+    }
+  }
+  .medio{
+    p{
+      font-size: 1.5rem;
+    }
+  }
+  .textoTarjeta{
+    h5{
+      font-size: 2rem;
+    }
+    p{
+      font-size:1.5rem;
+    }
+    a{font-size: 1.2rem;}
+  }
+  .btnTarjetita{
+    display: flex;
+    justify-content: center;
+   }
+  .faq {
+    font-size: 1.4rem;
+    h2 p{
+      font-size: 1.2rem;
+    }
+}
+ //contacto
+
+ .contacto {
+  font-size: 2rem;
+  p{
+    font-size: 1.5rem;
+  }
+  ::placeholder{
+    font-size: 1.5rem;
+  }
+  button{
+    font-size: 1.2rem;
+  }
+  h4{
+    font-size: 2rem;
+  }
+}
+.mapa_arriba{
+  h1{
+    font-size: 1.6rem;
+  }
+}
+
+.boton{
+  font-size: 1.5rem;
+}
 }
