@@ -375,10 +375,15 @@
     display: flex;
     justify-content: center;
    }
+   // faq 
+
+   .titulo__faq{
+    font-size: 1.5rem;
+   }
   .faq {
-    font-size: 1.4rem;
+    font-size: 1rem;
     h2 p{
-      font-size: 1.2rem;
+      font-size: .9rem;
     }
 }
  //contacto
@@ -406,5 +411,39 @@
 
 .boton{
   font-size: 1.5rem;
+}
+// nav 
+.navbar {
+  li{
+    font-size: 1.4rem;
+
+  }
+}
+
+.tituloContacto{
+  font-size: 2rem;
+}
+
+ //contacto
+
+ .contacto {
+  font-size: 1rem;
+  p{
+    font-size: 1rem;
+  }
+  ::placeholder{
+    font-size: 1rem;
+  }
+  button{
+    font-size: 1.2rem;
+  }
+  h4{
+    font-size: 2rem;
+  }
+}
+.mapa_arriba{
+  h1{
+    font-size: 1.2rem;
+  }
 }
 }

@@ -598,11 +598,14 @@ body {
     display: flex;
     justify-content: center;
   }
+  .titulo__faq {
+    font-size: 1.5rem;
+  }
   .faq {
-    font-size: 1.4rem;
+    font-size: 1rem;
   }
   .faq h2 p {
-    font-size: 1.2rem;
+    font-size: 0.9rem;
   }
   .contacto {
     font-size: 2rem;
@@ -630,5 +633,35 @@ body {
   }
   .boton {
     font-size: 1.5rem;
+  }
+  .navbar li {
+    font-size: 1.4rem;
+  }
+  .tituloContacto {
+    font-size: 2rem;
+  }
+  .contacto {
+    font-size: 1rem;
+  }
+  .contacto p {
+    font-size: 1rem;
+  }
+  .contacto ::-moz-placeholder {
+    font-size: 1rem;
+  }
+  .contacto :-ms-input-placeholder {
+    font-size: 1rem;
+  }
+  .contacto ::placeholder {
+    font-size: 1rem;
+  }
+  .contacto button {
+    font-size: 1.2rem;
+  }
+  .contacto h4 {
+    font-size: 2rem;
+  }
+  .mapa_arriba h1 {
+    font-size: 1.2rem;
   }
 }/*# sourceMappingURL=estilo.css.map */
