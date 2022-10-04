@@ -3,33 +3,13 @@
     
 }
 .btn-primary:hover {
-    background: rgb(1, 117, 163);
+    background: $color-terceario;
     color: black;
     
 } 
 .card-body{
     background-color: rgba(41, 2, 2, 0.247);
-}
-
-$tarjetitasColor: (
-    gris: rgb(122, 107, 107),
-    azul: rgb(18, 18, 110),
-    rojo: red,
-    verde: green,
-);
-
-.tarjetitasColor {
-    background-color: rgb(192, 192, 206);
-    color: rgb(92, 31, 31);
-}
-
-@each $tarjetitas, $color  in $tarjetitasColor {
-    .tarjetitas-#{$tarjetitas} {
-        background-color: $color;
-    }
-}
-
-
+};
 
 
 .bounce-top{

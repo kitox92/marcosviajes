@@ -1,9 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=DynaPuff&family=Roboto:ital,wght@0,400;1,300&display=swap');
 
 $fontRoboto: 'Roboto', sans-serif;
-
+ 
 
 
 /** fondo color **/
 $bodyColor: rgba(134, 112, 112, 0.74);
 
+$color-secundario: #0a5c2ca1;
+$color-terceario: #d3b03ea1;
+
+%iconos {
+    color: rgb(28, 73, 27);
+    &:hover{
+        color: $color-terceario;
+    }
+}

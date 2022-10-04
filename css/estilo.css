@@ -1,6 +1,13 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=DynaPuff&family=Roboto:ital,wght@0,400;1,300&display=swap");
 /** fondo color **/
+.bi-facebook, .bi-twitter, .bi-whatsapp {
+  color: rgb(28, 73, 27);
+}
+.bi-facebook:hover, .bi-twitter:hover, .bi-whatsapp:hover {
+  color: rgba(211, 176, 62, 0.631372549);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -68,33 +75,12 @@ body {
 }
 
 .btn-primary:hover {
-  background: rgb(1, 117, 163);
+  background: rgba(211, 176, 62, 0.631372549);
   color: black;
 }
 
 .card-body {
   background-color: rgba(41, 2, 2, 0.247);
-}
-
-.tarjetitasColor {
-  background-color: rgb(192, 192, 206);
-  color: rgb(92, 31, 31);
-}
-
-.tarjetitas-gris {
-  background-color: rgb(122, 107, 107);
-}
-
-.tarjetitas-azul {
-  background-color: rgb(18, 18, 110);
-}
-
-.tarjetitas-rojo {
-  background-color: red;
-}
-
-.tarjetitas-verde {
-  background-color: green;
 }
 
 .bounce-top {
@@ -296,13 +282,6 @@ body {
     opacity: 1;
   }
 }
-#pie {
-  margin-top: 250px;
-  width: 100%;
-  height: 200px;
-  position: absolute;
-}
-
 @media screen and (max-width: 1400px) {
   .navbar-nav {
     font-size: 1.8rem;
@@ -539,7 +518,55 @@ body {
     font-size: 1.2rem;
   }
 }
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 957px) {
+  .medio h1 {
+    font-size: 3rem;
+  }
+  .medio p {
+    font-size: 1.8rem;
+    display: flex;
+    align-items: center;
+  }
+  .medio .tituloCabaña h2 {
+    font-size: 4rem;
+  }
+  .textoTarjeta h5 {
+    font-size: 2.5rem;
+  }
+  .textoTarjeta p {
+    font-size: 2rem;
+  }
+  .btnTarjetita {
+    padding: 37px;
+    margin: 8px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    font-size: 1.5rem;
+  }
+  .textoCerro h5 {
+    line-height: 45px;
+  }
+  .textoCerro p {
+    line-height: 48px;
+  }
+  .textoJujuy h5 {
+    line-height: 45px;
+  }
+  .textoJujuy p {
+    line-height: 48px;
+  }
+  .misiones p {
+    line-height: 30px;
+  }
+  .imgTarjeta {
+    height: 180px;
+  }
+  .medio p {
+    font-size: 1.8rem;
+  }
+}
+@media screen and (max-width: 957px) and (max-width: 576px) {
   .medio h1 {
     font-size: 2rem;
   }
@@ -575,7 +602,7 @@ body {
     font-size: 2.5rem;
   }
 }
-@media screen and (max-width: 412px) {
+@media screen and (max-width: 957px) and (max-width: 412px) {
   .titulo h3 {
     font-size: 1.2rem;
   }
@@ -663,5 +690,8 @@ body {
   }
   .mapa_arriba h1 {
     font-size: 1.2rem;
+  }
+  .anchofooter {
+    height: auto;
   }
 }/*# sourceMappingURL=estilo.css.map */
